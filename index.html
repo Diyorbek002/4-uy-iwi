@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/minimalize.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+
+</head>
+<body>
+
+    <form action="http://echo.htmlacademy.ru/" method="post" autocomplete="off">
+        <h1>Qaysi sport turiga qiziqasiz?</h1>
+        <label class="tennis">
+            <input class="visually-hidden" type="checkbox" name="Sport turi" value="Stol tennisi">
+            <span class="tennis__img"></span>
+            Stol tennisi
+        </label>
+
+        <label class="tennis">
+            <input class="visually-hidden" type="checkbox" name="Sport turi" value="Basketbol">
+            <span class="basketball__img"></span>
+            Basketbol
+        </label>
+
+        <label class="tennis">
+            <input class="visually-hidden" type="checkbox" name="Sport turi" value="Voleybol">
+            <span class="volleyball__img"></span>
+            Volleybol
+        </label>
+
+        <label class="tennis">
+            <input class="visually-hidden" type="checkbox" name="Sport turi" value="Hokkey">
+            <span class="hockey__img"></span>
+            Hokkey
+        </label>
+
+        <label class="tennis tennis--disabled">
+            <input class="visually-hidden" type="checkbox" disabled name="Sport turi" value="Stol tennisi">
+            <span class="hokkey__img"></span>
+            <span class="tennis__deck">Hokkey</span>
+        </label>
+
+        <label class="tennis tennis--disabled">
+            <input class="visually-hidden" type="checkbox" disabled checked name="Sport turi" value="Stol tennisi">
+            <span class="hoccey__img"></span>
+            <span class="tennis__deck">Hokkey</span>
+        </label>
+        <button class="tennis__button">send</button>
+    </form>
+</body>
+</html>
